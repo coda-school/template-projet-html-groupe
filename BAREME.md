@@ -7,6 +7,11 @@
 2. **Le site respecte les exigences essentielles** - **8 pts**
 3. **Le site respecte les exigences complémentaires** - **4 pts**
 4. **Score global Lighthouse** – **2 pts**
+    * `score < 200` => 0pts
+    * `200 <= score < 300` => 1pt
+    * `300 <= score < 400` => 2pts
+    * Vous pouvez choisir une exigence complémentaire pour obtenir 1pts supplémentaire si vous pensez pouvoir obtenir un
+      score de 400
 5. **Modularité et simplicité** – **2 pts**
     * Les classes CSS et sélecteurs superflux sont évités
     * Les duplications sont réduites quand possible
@@ -74,7 +79,7 @@ novembre) à partir du matin. Ceci pour s'assurer que le temps ne manquera pas.
 
 Barème : 8pts
 
-**L'ensemble** de ces exigences doit être pris en compte pour obtenir le maximum de points. 
+**L'ensemble** de ces exigences doit être pris en compte pour obtenir le maximum de points.
 
 | Exigences                                        | Critère d'acceptation                                                                                                                                                                                                                                           | Barème  |
 |--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
