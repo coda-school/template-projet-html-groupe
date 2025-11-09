@@ -43,8 +43,8 @@ Vous aurez probablement à produire d'autres documents (maquettes basse définit
 choix techniques.).
 
 Je vous invite à versionner ce travail (y compris des images, captures d'écran, questions que vous vous posez) dans le
-dossier [`docs`](docs) (n'hésitez pas à ajouter des documents si vous le jugez utile).
-Vous pouvez si vous le souhaitez tenir un journal d'équipe dans [`docs/JOURNAL.md`](docs/JOURNAL.md).
+dossier [`docs`](../docs) (n'hésitez pas à ajouter des documents si vous le jugez utile).
+Vous pouvez si vous le souhaitez tenir un journal d'équipe dans [`docs/JOURNAL.md`](JOURNAL.md).
 
 Si vous prenez des notes sur les choses qui vous ont posé des difficultés, vous pourrez revenir dessus plus tard quand
 vous tomberez de nouveau sur le même problème.
@@ -98,7 +98,7 @@ Ils vous permettront de maintenir la qualité avant que le désordre s'installe.
 
 Rappelez-vous de la règle du Boy scout.
 
-- [Monitoring et suivi de la qualité](docs/MONITORING.md)
+- [Monitoring et suivi de la qualité](MONITORING.md)
 
 ## Ajout de fonctionnalités non prévues
 
