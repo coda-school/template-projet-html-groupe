@@ -111,6 +111,6 @@ choses.
 
 Pendant le déroulé du projet, vous continuerez d'avoir des petits cours et apprendrez de nouveaux concepts.
 
-Vous serez peut-être amené-es à modifier votre code pour mettre en oeuvre ces nouveaux concepts. C'est à ce moment que *
-*votre capacité à comprendre ce que vous faites** fera la différence (et où l'IA pour générer du code vous donnera
+Vous serez peut-être amené-es à modifier votre code pour mettre en oeuvre ces nouveaux concepts. C'est à ce moment que 
+**votre capacité à comprendre ce que vous faites** fera la différence (et où l'IA pour générer du code vous donnera
 sûrement du fil à retordre).
