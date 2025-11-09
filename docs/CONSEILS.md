@@ -107,7 +107,7 @@ Comme dans un vrai projet, _s'il y a une chose de certaine, c'est **l'incertitud
 Vous découvrirez peut-être que pour atteindre votre objectif, vous aurez besoin de changer ou parfois de recommencer des
 choses.
 
-C'est normal.
+> C'est normal.
 
 Pendant le déroulé du projet, vous continuerez d'avoir des petits cours et apprendrez de nouveaux concepts.
 
