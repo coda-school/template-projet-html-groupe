@@ -1,93 +1,92 @@
-# Démarrage de site statique simple
+# Réaliser un site statique de zéro
 
-Ce modèle permet de démarrer un site statique qui peut être lancé en local avec la commande `vite`.
+Dans la vraie vie, il est important de **comprendre ce qu'on fait**.
+On **ne choisit pas** non plus toujours **ses collègues**.
 
-Quand il est stocké dans un dépôt Github ou Gitlab, un site statique est publié.
+Sur une période de 4 jours (du lundi au vendredi, le mardi étant férié), vous serez répartis en groupes aléatoires pour
+réaliser un petit site web statique parmi des projets proposés.
+Vous pouvez aussi proposer un sujet et l'enseignant vérifiera avec vous comment il peut être adapté aux exigences pour
+s'inscrire dans le barème.
 
-Le contenu présent dans le dossier `public` sera déployé automatiquement en ligne à chaque fois que du code est poussé avec `git push`.
+Vous trouverez quelques conseils pour vous aider à la réalisation de votre projet dans le fichier [`docs/CONSEILS.md`](docs/CONSEILS.md)
 
-<img width="789" height="344" alt="image" src="https://github.com/user-attachments/assets/bb267ded-8a90-46db-b794-8a9ee0c835bb" />
 
-[Publier un site statique en 3 minutes avec Github Pages](https://www.youtube.com/watch?v=zeROcSDESe8)
+## Déroulé
 
-## Utiliser ce template avec Github.
+### Présentation du barème
 
-Se rendre sur https://github.com/coda-school/template-site-statique.
-Cliquer sur le bouton `Utiliser ce template` puis `Créer un nouveau dépôt`.
+**Le premier jour** (lundi 10 novembre), l'enseignant vous présente [le barème](BAREME.md) et répond à vos questions et remarques sur le sujet.
 
-Donner un nom et une description au dépôt.
-Choisir la visibilité `public`.
+### Composition des groupes
 
-### Déploiement sur Github pages
+Toujours le premier jour, l'enseignant anime une "cérémonie" pour **répartir aléatoirement** les apprenant-es dans des groupes.
 
-Le dépôt doit avoir la visibilité `public`
+![Dessin animé où un personnage fait tourner frénétiqueent une roue pour déterminer la composition des groupes](docs/assets/La-roue-des-projets.gif)
 
-Dans les `paramètres` du dépôt, rubrique `Pages`, positionner la source de déploiement à `Github Actions`.
+Selon le nombre d'apprenant-es, la taille des groupes peut varier.
 
-### Afficher le lien de la page dans Github
+Exemples de répartition possibles :
 
-Revenir à la page principale du dépôt Github.
+- 5 groupes de 5
+- 4 groupes de 4, 3 groupes de 3
+- 7 groupes de 3, 1 groupe de 4
 
-Dans la rubrique `à propos` (à droite), passer en mode edition.
+Des explications complémentaires sont disponibles [dans les conseils](docs/CONSEILS.md).
 
-Dans la rubrique site Web, cocher `Utiliser votre site Web Github Pages`.
+### Choix du votre sujet
 
-Sauvegarder les changements.
+Des choix "pré-tirés" vous seront proposés.
 
-L'adresse du site est maintenant affichée dans la rubrique `à propos`.
+Vous pouvez également proposer votre sujet.
+Dans ce cas, demandez à votre enseignant de vérifier si votre projet est compatible avec le cours et [le barème](BAREME.md).
 
-## Utiliser ce template avec GitLab.
+### Itérez sur votre projet
 
-Lors de la création d'un nouveau dépôt, choisir l'option `importer un projet`.
+Echangez, prototypez, codez, commit, push, vérifiez [le monitoring](docs/MONITORING.md), documentez [vos choix techniques](docs/ADR.md).
+Notez les événements, informations utiles, vos questions et idées, captures d'écran, maquettes, extraits de code dans [votre journal de projet](docs/JOURNAL.md).
 
-Choisir `Dépôt par URL`.
+> **TIP**
+> 
+> Faites régulièrement des petits commits et push (voir explications détaillées [dans la partie conseils](docs/CONSEILS.md))
 
-Pour `URL du dépôt Git`: `https://github.com/coda-school/template-site-statique.git`
+### Sessions de cours
 
-Donner un nom au dépôt.
+En plus de votre projet, l'enseignant vous délivrera quelques concepts supplémentaires sur HTML et CSS sous forme de petits cours théorico-pratiques.
 
-Idéalement, rendre le projet public.
+Si ces concepts sont demandés dans le barème ou s'ils vous semblent utiles, vous pourrez les intégrer directement dans votre projet. Ces nouvelles directions vous amèneront probablement à ajouter des entrées dans [votre journal de décisions techniques](docs/ADR.md).
 
-Créer le projet.
+### Alternance : itérations et sessions de cours
 
-Le site devrait se déployer la prochaine fois qu'un fichier est `git push`.
+Vous aurez une alternance entre itérations sur votre projet et les petites sessions de cours.
 
-### Rendre le site public à tous
+### Démo
 
-- Paramètres
-  - Général
-    - Visibilité, fonctionalité projet et permissions
-    - Pages : "Tout le monde"
-    
+Le 3ème jour (jeudi 13 novembre), groupe par groupe, l'enseignant vous invitera à **faire une démo** de votre projet. Il vous demandera de montrer l'état courant du site et d'expliquer certains de vos choix techniques. Il pourra proposer une revue de code collective.
 
-## Lancer le serveur en local avec vite
+Des questions seront posées au groupe et d'autres à chaque membre du groupe individuellement.
 
-Après avoir rempli les prérequis (voir plus bas).
+> **NOTE:** 
+>
+> La démo n'est pas la fin de votre projet. C'est un point d'étape pour donner et collecter du feedback.
+> Votre projet continuera après votre démo.
 
-Dans une ligne de commande:
-```shell
-npx vite public
-```
+Des membres **d'autres équipes** auront la possibilité s'ils le souhaitent **d'assister à votre démo**. Ca peut être une occasion pour **partager des idées** et **proposer ou demander de l'aide**.
 
-Ou si vous avez installé vite globalement
-```shell
-vite public
-```
+### Fin du projet
 
-Ouvrir dans le navigateur : http://localhost:5173
+Le projet se termine **le dernier jour** (vendredi 14 novembre)  **à 16h**.
 
-## Prérequis
+Les commits poussés après 16h ne seront pas pris en compte dans l'évaluation.
 
-### Installer nodejs
+## Livrable attendu
 
-Installer nodejs : https://nodejs.org/fr/download
+- [Instructions](LIVRABLE.md)
+- [Barème de notation](BAREME.md)
 
-### (Optionnel) installer vite globalement
+## Description du projet
 
-Installer la commande `vite`
+<!--
+Décrivez ici à quoi sert votre projet.
 
-Dans une ligne de commande:
-```shell
-npm install -g vite
-```
-
+Quelles sont ses fonctionnalités principales.
+-->
