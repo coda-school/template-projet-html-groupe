@@ -20,7 +20,7 @@
     * Au moins 1 commit qualitatif par jour par individu
     * Lors de la démo, l'apprenant-e peut expliquer ses contributions
     * Il/elle peut répondre à quelques questions sur le projet et sur le cours.
-7. **Respect de l'énoncé** - (**entre 0pts et -8pts retranchés** du total si pas respectées)
+7. **Respect de l'énoncé** - (**<span style="color:red">entre 0pts et -8pts retranchés</span>** du total si pas respectées)
     * Pas de Javascript
     * Partir de 0. Ne pas utiliser de travail pré-existant.
     * Utilisation d'IA ou d'extraits de code extérieur autorisés à condition qu'il soit remanié, simplifié et adapté au
