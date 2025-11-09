@@ -64,6 +64,7 @@ Vous aurez une alternance entre itérations sur votre projet et les petites sess
 Le 3ème jour (jeudi 13 novembre), groupe par groupe, l'enseignant vous invitera à **faire une démo** de votre projet. Il vous demandera de montrer l'état courant du site et d'expliquer certains de vos choix techniques. Il pourra proposer une revue de code collective.
 
 Des questions seront posées au groupe et d'autres à chaque membre du groupe individuellement.
+Dans les questions individuelles, certaines porteront sur **le projet** et **les contributions** de la personne et d'autres **sur des concepts du cours**.
 
 > **NOTE:** 
 >
