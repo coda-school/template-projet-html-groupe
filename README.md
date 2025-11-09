@@ -40,6 +40,12 @@ Des choix "pré-tirés" vous seront proposés.
 Vous pouvez également proposer votre sujet.
 Dans ce cas, demandez à votre enseignant de vérifier si votre projet est compatible avec le cours et [le barème](BAREME.md).
 
+### Choix des exigences complémentaires
+
+Une fois le choix du projet fait, vous devez ajouter 2 à 6 exigences complémentaires à votre projet dans la liste proposée au niveau [du barème](BAREME.md).
+
+Reportez ces exigences dans le chapitre dédié dans [le document des instructions](LIVRABLE.md).
+
 ### Itérez sur votre projet
 
 Echangez, prototypez, codez, commit, push, vérifiez [le monitoring](docs/MONITORING.md), documentez [vos choix techniques](docs/ADR.md).
